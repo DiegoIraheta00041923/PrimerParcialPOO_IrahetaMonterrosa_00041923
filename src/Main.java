@@ -103,9 +103,9 @@ public class Main {
         sc.nextLine();
         System.out.println("Nombre del articulo: ");
         nombre = sc.nextLine();
-        System.out.println("Modelo: ");
+        System.out.println("Modelo (0000-00): ");
         modelo = sc.nextLine();
-        System.out.println("Precio: ");
+        System.out.println("Precio (En dolares): ");
         precio = sc.nextFloat();
         switch (tipoArticulo()){
             case 1:
